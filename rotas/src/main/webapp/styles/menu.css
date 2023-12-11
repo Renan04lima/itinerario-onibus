@@ -20,8 +20,8 @@ body {
 
 #side-menu {
     background-color: #022B3A;
+    height: 100vh;
     width: 200px;
-    height: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -39,6 +39,31 @@ body {
     text-align: center;
     width: 100%;
     box-sizing: border-box;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+#side-menu a:hover {
+    background-color: #014051;
+}
+
+#side-menu .submenu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 100%;
+    /* Position the submenu to the right of the menu item */
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #022B3A;
+    /* Adjust the background color */
+    width: 200px;
+    /* Adjust the width as needed */
+}
+
+#side-menu a.has-submenu:hover+.submenu,
+#side-menu .submenu:hover {
+    display: flex;
 }
 
 #footer {

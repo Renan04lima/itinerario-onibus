@@ -18,7 +18,11 @@
 
     <div id="side-menu">
         <a href="/rotas/">Home</a>
-        <a href="/rotas/itinerarios/">Rotas</a>
+        <a class="has-submenu" href="/rotas/">Rotas</a>
+        <div class="submenu">
+            <a href="/rotas/itinerarios/">Itinerários</a>
+            <a href="/rotas/cadastro/">Cadastro de Itinerários</a>
+        </div>
         <a href="/rotas/tarifas">Tarifas e bilhetes</a>
         <a href="#">Nossos veículos</a>
         <a href="#">Contato & Suporte</a>

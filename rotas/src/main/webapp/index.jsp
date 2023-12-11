@@ -28,24 +28,135 @@
             <p class="subtitle">Desenvolvido por: Jean W., Marcus V. e Renan O.</p>
         </div>                        
     </div>
-
     <div id="container">
         <h1>Rotas mais utilizadas</h1>
 
         <div class="card">
-            <h1>Rota X</h1>
+            <h1>Rota 21</h1>
             <div class="subtitles">
-                <p>Origem:</p>
-                <p>Destino:</p>
+                <p>Origem: Campo Grande</p>
+                <p>Destino: Canavieiras</p>
+            </div>
+            <div class="card-footer">
+                <div class="icons">
+                    <!-- <i class="fas fa-wheelchair"></i>
+                    <i class="fas fa-wifi"></i> -->
+                    <i class="fas fa-snowflake"></i>
+                    <!-- <i class="fas fa-tv"></i> -->
+                </div>
+                <!-- <div class="chip">Região A</div> -->
+            </div>
+        </div>
+        <div class="card">
+            <h1>Rota 25</h1>
+            <div class="subtitles">
+                <p>Origem: Floripa</p>
+                <p>Destino: Vila Cortinas</p>
             </div>
             <div class="card-footer">
                 <div class="icons">
                     <i class="fas fa-wheelchair"></i>
                     <i class="fas fa-wifi"></i>
                     <i class="fas fa-snowflake"></i>
-                    <i class="fas fa-tv"></i>
+                    <!-- <i class="fas fa-tv"></i> -->
                 </div>
-                <div class="chip">Região A</div>
+                <!-- <div class="chip">Região A</div> -->
+            </div>
+        </div>
+        <div class="card">
+            <h1>Rota 33</h1>
+            <div class="subtitles">
+                <p>Origem: Passos</p>
+                <p>Destino: Canavieiras</p>
+            </div>
+            <div class="card-footer">
+                <div class="icons">
+                    <!-- <i class="fas fa-wheelchair"></i>
+                    <i class="fas fa-wifi"></i> -->
+                    <i class="fas fa-snowflake"></i>
+                    <!-- <i class="fas fa-tv"></i> -->
+                </div>
+                <!-- <div class="chip">Região A</div> -->
+            </div>
+        </div>
+        <div class="card">
+            <h1>Rota 111</h1>
+            <div class="subtitles">
+                <p>Origem: Trambique</p>
+                <p>Destino: Campo Grande</p>
+            </div>
+            <div class="card-footer">
+                <div class="icons">
+                    <i class="fas fa-wheelchair"></i>
+                    <!-- <i class="fas fa-wifi"></i> -->
+                    <i class="fas fa-snowflake"></i>
+                    <!-- <i class="fas fa-tv"></i> -->
+                </div>
+                <!-- <div class="chip">Região A</div> -->
+            </div>
+        </div>
+        <div class="card">
+            <h1>Rota 22</h1>
+            <div class="subtitles">
+                <p>Origem: Lagos</p>
+                <p>Destino: Lages</p>
+            </div>
+            <div class="card-footer">
+                <div class="icons">
+                    <!-- <i class="fas fa-wheelchair"></i> -->
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-snowflake"></i>
+                    <!-- <i class="fas fa-tv"></i> -->
+                </div>
+                <!-- <div class="chip">Região A</div> -->
+            </div>
+        </div>
+        <div class="card">
+            <h1>Rota 12</h1>
+            <div class="subtitles">
+                <p>Origem: Lages</p>
+                <p>Destino: Floripa</p>
+            </div>
+            <div class="card-footer">
+                <div class="icons">
+                    <i class="fas fa-wheelchair"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-snowflake"></i>
+                    <!-- <i class="fas fa-tv"></i> -->
+                </div>
+                <!-- <div class="chip">Região A</div> -->
+            </div>
+        </div>
+        <div class="card">
+            <h1>Rota 54</h1>
+            <div class="subtitles">
+                <p>Origem: São Fidelis</p>
+                <p>Destino: Guarucar</p>
+            </div>
+            <div class="card-footer">
+                <div class="icons">
+                    <!-- <i class="fas fa-wheelchair"></i> -->
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-snowflake"></i>
+                    <!-- <i class="fas fa-tv"></i> -->
+                </div>
+                <!-- <div class="chip">Região A</div> -->
+            </div>
+        </div>
+        <div class="card">
+            <h1>Rota 81</h1>
+            <div class="subtitles">
+                <p>Origem: Ponte Preta</p>
+                <p>Destino: Ferroviaria</p>
+            </div>
+            <div class="card-footer">
+                <div class="icons">
+                    <!-- <i class="fas fa-wheelchair"></i>
+                    <i class="fas fa-wifi"></i> -->
+                    <i class="fas fa-snowflake"></i>
+                    <!-- <i class="fas fa-tv"></i> -->
+                </div>
+                <!-- <div class="chip">Região A</div> -->
             </div>
         </div>
     </div>

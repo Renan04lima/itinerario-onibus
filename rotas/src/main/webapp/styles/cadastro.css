@@ -1,0 +1,109 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.outlined-input-container {
+    position: relative;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.outlined-input-container:not(:last-child) {
+    margin-right: 50px;
+}
+
+.outlined-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    font-size: 16px;
+    color: #555;
+}
+
+.outlined-input:focus,
+.outlined-input:not(:placeholder-shown) {
+    border-color: #66afe9;
+}
+
+.input-label {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    pointer-events: none;
+    transition: top 0.3s ease, font-size 0.3s ease;
+    font-size: 14px;
+    color: #8c8b8b;
+}
+
+.outlined-input:focus~.input-label,
+.outlined-input:not(:placeholder-shown)~.input-label {
+    top: -15px;
+    font-size: 12px;
+    color: #66afe9;
+}
+
+.origin-destination-inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+
+
+.input-ratio-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-ratio {
+    margin-right: 10px;
+}
+
+.styled-dropdown {
+    margin-bottom: 10px;
+    /* Adjusted margin to separate dropdowns */
+    padding: 12px;
+    border: 2px solid #919191;
+    border-radius: 8px;
+    width: 180px;
+    appearance: none;
+    background: url('data:image/svg+xml;utf8,<svg fill="919191" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z" /></svg>') no-repeat right 10px center/15px auto;
+}
+
+#new-button {
+    background-color: green;
+    color: white;
+    padding: 12px;
+    border: 2px solid #919191;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    /* Adjusted margin to separate the button from the stops */
+}
+
+.regions-container {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+}
+
+.region {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    /* Adjusted minmax to match the dropdown width */
+    gap: 10px;
+    align-items: center;
+    /* Centering region name vertically */
+}
+
+.stop-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

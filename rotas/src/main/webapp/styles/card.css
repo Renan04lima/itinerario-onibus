@@ -1,0 +1,55 @@
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.card h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.subtitles p {
+    margin: 0;
+    padding: 0;
+}
+
+.subtitles {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    gap: 5px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 40px;
+
+}
+
+.icons,
+.chip {
+    margin: 0 10px;
+    /* adicionei essa margem para alinhar corretamente */
+}
+
+.icons i {
+    font-size: 24px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.chip {
+    background-color: #1F7A8C;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    font-size: medium;
+    padding: 4px 15px;
+}

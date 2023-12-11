@@ -1,0 +1,47 @@
+.title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sub-box {
+    flex: 1 1 calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+.sub-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sub-text {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.last-text {
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 20px 0;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .sub-box {
+        flex: 1 1 100%;
+    }
+}

@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="../styles/menu.css">
     <link rel="stylesheet" href="../styles/itinerarios.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <script src="jquery-3.7.1.min.js"></script>
-    <script src="getRotasPorPonto.js"></script>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="../getRotasPorPonto.js"></script>
 </head>
 
 <body>
@@ -36,10 +36,10 @@
         <h1>Rotas - Itinerário</h1>
 
         <div id="search-container">
-            <select id="regioes-select">
-                <option value="1L">Consagracao</option>
-                <option value="2L">Nova Hortolandia</option>
-                <option value="3L">Brapil</option>
+            <select id="regioesSelect">
+                <option value="1">Consagracao</option>
+                <option value="2">Nova Hortolandia</option>
+                <option value="3">Brapil</option>
             </select>
             <button id="buscarRegiao">Buscar</button>
         </div>
